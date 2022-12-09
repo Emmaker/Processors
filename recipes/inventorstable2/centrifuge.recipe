@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 15 },
+    { "item" : "bottle", "count" : 3 },
+    { "item" : "battery", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "centrifuge",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "inventorstable2", "craftingstations", "all" ]
+}

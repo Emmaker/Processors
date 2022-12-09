@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "uraniumore", "count" : 2 }
+  ],
+  "output" : { "item" : "uraniumrod", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace2", "bars", "all" ]
+}

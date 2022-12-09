@@ -1,0 +1,6 @@
+[
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "centrifuge" } },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "crusher" } },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "sieve" } },
+  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item" : "smelter" } }
+]

@@ -1,0 +1,10 @@
+{
+  "itemName" : "slag",
+  "price" : 20,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "slag.png",
+  "description" : "A magma-like mixture of excess material. A byproduct of smelting.",
+  "shortdescription" : "Slag",
+  "itemTags" : [ "reagent" ]
+}
