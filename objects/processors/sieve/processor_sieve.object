@@ -1,0 +1,47 @@
+{
+  "objectName" : "processor_sieve",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "price" : 1000,
+  "radioMessagesOnPickup" : [ ],
+  "printable" : false,
+  "description" : "The sieve sifts through sand and similar items to find useful items.",
+  "shortdescription" : "^orange;Sieve^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "apexDescription" : "I can sift sand for small minerals with this sieve.",
+  "avianDescription" : "Sifting through sand and gravel for useful pebbles.",
+  "floranDescription" : "Floran thinkss sssand is too dry.",
+  "glitchDescription" : "Neutral. I think sifting is too time consuming to be worthwhile.",
+  "humanDescription" : "Just like during the gold rush!",
+  "hylotlDescription" : "Sift sand and gravel for little rocks is strangely fun.",
+  "novakidDescription" : "Lots of people use sieves like this while prospectin'.",
+
+  "inventoryIcon" : "processor_sieveicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "processor_sieve.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 11,
+  "uiConfig" : "/interface/processors/processor.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/objects/scripts/cf_processor.lua" ],
+  "scriptDelta" : 100, // 1 delta = 1 milisecond
+  "recipeList" : "sieve"
+}

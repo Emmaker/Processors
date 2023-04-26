@@ -1,0 +1,46 @@
+{
+  "objectName" : "processor_centrifuge",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
+  "price" : 1000,
+  "radioMessagesOnPickup" : [ ],
+  "printable" : false,
+  "description" : "The centrifuge seperates items with centrifugal force.",
+  "shortdescription" : "^orange;Centrifuge^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "apexDescription" : "I can put items in here to seperate them.",
+  "avianDescription" : "Seperating items into multiple, smaller, items.",
+  "floranDescription" : "Floran hasss fun sitting on top while it sspinsss.",
+  "glitchDescription" : "Neutral. Seperates items with centrifugal force.",
+  "humanDescription" : "Spin me right 'round, baby, right 'round like a record, baby...",
+  "hylotlDescription" : "Spinning things to seperate them. Simple and amazing at the same time.",
+
+  "inventoryIcon" : "processor_centrifugeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "processor_centrifuge.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 11,
+  "uiConfig" : "/interface/processors/processor.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "objects/scripts/cf_processor.lua" ],
+  "scriptDelta" : 100, // 1 delta = 1 milisecond
+  "recipeList" : "centrifuge"
+}

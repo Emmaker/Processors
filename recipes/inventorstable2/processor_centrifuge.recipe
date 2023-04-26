@@ -1,11 +1,11 @@
 {
   "input" : [
     { "item" : "titaniumbar", "count" : 15 },
-    { "item" : "coalore", "count" : 20 },
-    { "item" : "glass", "count" : 10 }
+    { "item" : "bottle", "count" : 3 },
+    { "item" : "battery", "count" : 1 }
   ],
   "output" : {
-    "item" : "smelter",
+    "item" : "processor_centrifuge",
     "count" : 1
   },
   "duration" : 5,

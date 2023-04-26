@@ -1,4 +1,6 @@
 {
+  // THIS OBJECT HAS BEEN DEPRICATED IN FAVOR OF processor_centrifuge
+
   "objectName" : "centrifuge",
   "colonyTags" : ["crafting"],
   "rarity" : "Rare",
@@ -40,7 +42,7 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
-  "scripts" : [ "/scripts/processor.lua" ],
+  "scripts" : [ "scripts/processor.lua" ],
   "scriptDelta" : 100, // 1 delta = 1 milisecond
   "recipeList" : "centrifuge"
 }

@@ -1,5 +1,5 @@
 {
-  "objectName" : "smelter",
+  "objectName" : "processor_smelter",
   "colonyTags" : ["crafting"],
   "rarity" : "Rare",
   "price" : 1000,
@@ -20,10 +20,10 @@
   "humanDescription" : "I could feel the heat from this thing a mile away! Well, not really...",
   "hylotlDescription" : "This improvement to a furnace is very impressive.",
 
-  "inventoryIcon" : "smeltericon.png",
+  "inventoryIcon" : "processor_smeltericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "smelter.png:<color>.<frame>", "fullbright" : true }, { "image" : "smelterlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "processor_smelter.png:<color>.<frame>", "fullbright" : true }, { "image" : "processor_smelterlit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
 
       "direction" : "left",
@@ -36,7 +36,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "smelter.png:<color>.<frame>", "fullbright" : true }, { "image" : "smelterlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "processor_smelter.png:<color>.<frame>", "fullbright" : true }, { "image" : "processor_smelterlit.png:<color>.<frame>" } ],
       "imagePosition" : [0, 0],
 
       "direction" : "left",
@@ -54,7 +54,7 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
-  "scripts" : [ "/scripts/processor.lua" ],
+  "scripts" : [ "/objects/scripts/cf_processor.lua" ],
   "scriptDelta" : 100, // 1 delta = 1 milisecond
   "recipeList" : "smelter"
 }

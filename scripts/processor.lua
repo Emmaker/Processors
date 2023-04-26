@@ -1,3 +1,6 @@
+-- THIS SCRIPT HAS BEEN DEPRICATED! PLEASE USE THE UPDATED SCRIPT IN COMMUNITY FRAMEWORK:
+-- https://github.com/JamesTheMaker/Community-Framework
+
 function init()
 
   self.recipeList = config.getParameter("recipeList")

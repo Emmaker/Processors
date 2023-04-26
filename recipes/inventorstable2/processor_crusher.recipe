@@ -1,11 +1,10 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 15 },
-    { "item" : "bottle", "count" : 3 },
+    { "item" : "titaniumbar", "count" : 20 },
     { "item" : "battery", "count" : 1 }
   ],
   "output" : {
-    "item" : "centrifuge",
+    "item" : "processor_crusher",
     "count" : 1
   },
   "duration" : 5,

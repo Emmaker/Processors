@@ -1,4 +1,6 @@
 {
+  // THIS OBJECT HAS BEEN DEPRICATED IN FAVOR OF processor_sieve
+
   "objectName" : "sieve",
   "colonyTags" : ["crafting"],
   "rarity" : "Rare",
