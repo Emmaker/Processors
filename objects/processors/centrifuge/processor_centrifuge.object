@@ -40,7 +40,7 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
-  "scripts" : [ "objects/scripts/cf_processor.lua" ],
+  "scripts" : [ "/objects/scripts/cf_processor.lua" ],
   "scriptDelta" : 100, // 1 delta = 1 milisecond
   "recipeList" : "centrifuge"
 }
