@@ -5,4 +5,4 @@
  If you want to use Processors in your Starbound game, this is probably not the place you want to be. If you are using Steam you can download it from [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2899686368), but if you're not using Steam: download away!
  
 # For Modders
- Processors is a very extendable mod made with compatibility with mind. Find the example addon [here](https://github.com/JamesTheMaker/Processor-Addon).
+ This mod is depricated. Feel free to use any of the scripts in here for your own mods, or look at [Community Framework](https://github.com/Emmaker/CommunityFramework) for my most up-to-date frameworks.
