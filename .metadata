@@ -1,8 +1,7 @@
 {
-  "author" : "JamesTheMaker",
+  "author" : "Emmaker",
   "description" : "[b]Previous mod users MUST download Community Framework for future processors to function! Old processors have been temporarily left for compatibility.[/b]\n\nProcessors is a one of a kind mod that adds four new machines that process what was once useless into something useful! The Centrifuge, Crusher, Smelter and Sieve each have their own purpose, and their own recipes, that completely change how you look at your garbage.\n\nBut that's not all; every processor machine is built off a flexible framework that was made with extendability and compatibility in mind! Modders are fully capable of making their own, [i]unique[/i], processors with their own, [i]unique[/i], recipe configurations and even add their items to pre-existing configurations without the need of an additional patch mod. Modders can find the scripts in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2968438274]Community Framework[/url] and use this mod's code, [url=https://github.com/JamesTheMaker/Processors]here[/url], as a basis for making their own processors!\n\nLast but not least, thanks to everyone in the [u]mod_dev[/u] channel of the Starbound Discord for putting up with my crap and helping me with coding the Processors framework. This mod took countless hours and the effort of more than just me, so please enjoy!",
   "friendlyName" : "Processors",
-  "includes" : ["communityframework"],
   "link" : "steam://url/CommunityFilePage/2899686368",
   "name" : "processors",
   "steamContentId" : "2899686368",
